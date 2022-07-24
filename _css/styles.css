@@ -18,9 +18,18 @@ main {
     display: inline-block;
     margin-top: 2%;
     padding: 15px;
+    position: relative
 }
 
 .pokedex {
     width: 100%;
+    max-width: 425px;
+}
 
+.pokemon_img {
+    position: absolute;
+    left: 50px;
+    bottom: 55px;
+    transform: translate(-63%, 20%);
+    height: 18%;
 }
